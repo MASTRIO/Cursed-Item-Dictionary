@@ -75,4 +75,14 @@ function itemDatabase() {
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     );
+    newItem(
+        "MASTRIO",
+        5,
+        "Emerald Helmet",
+        "emerald_helmet.png",
+        500,
+        250,
+        "Wait a second...",
+        "Hmm yes this is totally an Emerald Helmet,<br>and that is totally the enchantments it can have.<br><br>Only the richest of Villagers use this shiny green piece of armour ;)"
+    );
 }
