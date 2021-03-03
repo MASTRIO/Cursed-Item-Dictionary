@@ -45,4 +45,34 @@ function itemDatabase() {
         "The longest name in the game!",
         "Not exactly a cursed item but come on, seriously, that name is so goddamn long.<br>In fact it's the longest name in the entire game!"
     );
+    newItem(
+        "MASTRIO",
+        2,
+        "Plot Armour",
+        "plot_armour.png",
+        250,
+        250,
+        "We win these!",
+        "The most powerful armour in existence<br>It makes you immune to all harm because your too important to the plot<br>Well unless you dying is apart of the plot..."
+    );
+    newItem(
+        "MASTRIO",
+        3,
+        "Grain",
+        "grain.png",
+        250,
+        250,
+        "Do you think I'm bread?",
+        "Grain is bread and he tastes like bread because he is bread...<br><br>EAT EAT EAT EAT EAT EAT"
+    );
+    newItem(
+        "MASTRIO",
+        4,
+        "Rick",
+        "rick.png",
+        250,
+        250,
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+        "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+    );
 }
