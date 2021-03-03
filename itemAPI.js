@@ -14,7 +14,7 @@ function searchItem() {
     }
 }
 
-function newItem(userName,ID,name,iconPath,caption,description) {
+function newItem(userName,ID,name,iconPath,iconWidth,iconHeight,caption,description) {
     if (ID == wantedItemID) {
         // Display Name
         document.getElementById("display-Name").innerHTML = "[#" + ID + "] " + name;
@@ -23,7 +23,7 @@ function newItem(userName,ID,name,iconPath,caption,description) {
         // Caption
         document.getElementById("display-Caption").innerHTML = '<i>"' + caption + '"</i>';
         // Icon
-        document.getElementById("display-Icon").innerHTML = '<img src="itemImg/' + iconPath + '"></img>';
+        document.getElementById("display-Icon").innerHTML = '<img src="itemImg/' + iconPath + '" width="' + iconWidth + '" height="' + iconHeight + '"></img>';
         // Icon
         document.getElementById("display-Description").innerHTML = description;
     }
@@ -33,32 +33,16 @@ function itemDatabase() {
     /* 
             PUT ALL ITEMS FOR THE API IN HERE:
             ----------------------------------
-            EXAMPLE ITEM:
-            newItem(
-                "USERS_GITHUB_NAME"
-                "ID",
-                "NAME",
-                "ITEM_ICON",
-                "CAPTION",
-                "DESCRIPTION"
-            );
     */
-    // Test 1
+    // Waxed Slightly Weathered Cut Copper Stairs
     newItem(
         "MASTRIO",
-        "1",
-        "test dummy",
-        "apple.png",
-        "bean man go brrrrrrrrrrrrr",
-        "A big fat apple that can go poo on the loo doo doo dee doo hahahaha"
-    );
-    // Test 2
-    newItem(
-        "MASTRIO",
-        "2",
-        "The second test I made pog",
-        "apple.png",
-        "holy moly it's a poop",
-        "So we back in the mine<br>Got our pickaxe swinging from side to side<br>Side-side to side<br>This task, a grueling one<br>Hope to find some diamonds tonight, night, night<br>Diamonds tonight"
+        1,
+        "Waxed Slightly Weathered Cut Copper Stairs",
+        "waxed_slightly_weathered_cut_copper_stairs.jpg",
+        450,
+        250,
+        "The longest name in the game!",
+        "Not exactly a cursed item but come on, seriously, that name is so goddamn long.<br>In fact it's the longest name in the entire game!"
     );
 }
