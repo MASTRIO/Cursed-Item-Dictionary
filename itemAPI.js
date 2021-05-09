@@ -31,8 +31,9 @@ function newItem(userName,ID,name,iconPath,iconWidth,iconHeight,caption,descript
 
 function itemDatabase() {
     /* 
-            PUT ALL ITEMS FOR THE API IN HERE:
-            ----------------------------------
+			-----------------------------------
+             PUT ALL ITEMS FOR THE API IN HERE
+            -----------------------------------
     */
     // Waxed Slightly Weathered Cut Copper Stairs
     newItem(
@@ -45,6 +46,7 @@ function itemDatabase() {
         "The longest name in the game!",
         "Not exactly a cursed item but come on, seriously, that name is so goddamn long.<br>In fact it's the longest name in the entire game!"
     );
+	// Plot Armour
     newItem(
         "MASTRIO",
         2,
@@ -55,6 +57,7 @@ function itemDatabase() {
         "We win these!",
         "The most powerful armour in existence<br>It makes you immune to all harm because your too important to the plot<br>Well unless you dying is apart of the plot..."
     );
+	// Grain
     newItem(
         "MASTRIO",
         3,
@@ -65,6 +68,7 @@ function itemDatabase() {
         "Do you think I'm bread?",
         "Grain is bread and he tastes like bread because he is bread...<br><br>EAT EAT EAT EAT EAT EAT"
     );
+	// Rick
     newItem(
         "MASTRIO",
         4,
@@ -75,6 +79,7 @@ function itemDatabase() {
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
         "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
     );
+	// Emerald Helmet
     newItem(
         "MASTRIO",
         5,
